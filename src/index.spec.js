@@ -3,6 +3,7 @@ import supertest from "supertest";
 import server from './index.js'
 import config from './config.js';
 
+// Изменение для CI
 describe('GET /hello/:name', () => {
   beforeEach(() => {
     server.start()
